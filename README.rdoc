@@ -1,0 +1,1 @@
+This is the sample code for OneMonthRails. For Training Purposes 
