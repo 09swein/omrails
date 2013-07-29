@@ -3,7 +3,8 @@ class User < ActiveRecord::Base
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :trackable, :validatable
+          :rememberable, :trackable, :validatable
+          #:recoverable,
   # attr_accessible :title, :body
 
   #fix for devise update from omrails notes
