@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
+#fix for devise update from omrails notes
+
 
 # --- Fix for Heroku sqlite error
 group :production do
@@ -20,3 +24,4 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
 end
+
