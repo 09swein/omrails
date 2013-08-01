@@ -5,7 +5,7 @@ class PinsController < ApplicationController
   # GET /pins
   # GET /pins.json
   def index
-    @pins = Pin.all #@ means global variable
+    @pins = Pin.order("created_at desc") #@ means global variable
 
     respond_to do |format|
       format.html # index.html.erb
